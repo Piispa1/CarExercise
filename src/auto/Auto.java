@@ -34,6 +34,13 @@ public class Auto {
 		}
 	}
 
+	public void tankkaa(int maara) {
+		int tankkauksenJalkeen = maara + bensanMaara;
+		System.out.println("Tankissa bensaa: " + bensanMaara);
+		System.out.println("Tankkaus: " + maara);
+		System.out.println("Tankissa bensaa tankkauksen jälkeen: " + tankkauksenJalkeen);
+	}
+
 	public void NaytaTiedot() {
 		System.out.println("merkki: " + merkki);
 		System.out.println("malli: " + malli);
