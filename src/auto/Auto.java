@@ -23,4 +23,19 @@ public class Auto {
 
 	}
 
+	public void Kiihdyta() {
+		bensanMaara = bensanMaara - 1;
+		System.out.println("Auto kiihtyy");
+
+	}
+
+	public void NaytaTiedot() {
+		System.out.println("merkki: " + merkki);
+		System.out.println("malli: " + malli);
+		System.out.println("bensanMaara: " + bensanMaara);
+	}
+
+	public void Jarruta() {
+		System.out.println("Auto jarruttaa");
+	}
 }
