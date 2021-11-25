@@ -27,9 +27,11 @@ public class Auto {
 	}
 
 	public void Kiihdyta() {
-		bensanMaara = bensanMaara - 1;
-		System.out.println("Auto kiihtyy");
 
+		if (bensanMaara > 0) {
+			bensanMaara = bensanMaara - 1;
+			System.out.println("Auto kiihtyy");
+		}
 	}
 
 	public void NaytaTiedot() {
