@@ -20,10 +20,18 @@ public class Auto {
 
 	public static void main(String[] args) {
 
-		Auto auto1 = new Auto("Fiat", "Scudo", 10);
+		Auto auto1 = new Auto();
+		auto1.merkki = "Fiat";
+		auto1.malli = "Scudo";
+		auto1.bensanMaara = 10;
 		auto1.NaytaTiedot();
 		auto1.Kiihdyta();
 		auto1.NaytaTiedot();
+
+		Auto auto2 = new Auto("Volvo", "740", 20);
+		auto2.NaytaTiedot();
+		auto2.Kiihdyta();
+		auto2.NaytaTiedot();
 	}
 
 	public void Kiihdyta() {
