@@ -19,8 +19,11 @@ public class Auto {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Auto auto1 = new Auto("Fiat", "Scudo", 10);
+		auto1.NaytaTiedot();
+		auto1.Kiihdyta();
+		auto1.NaytaTiedot();
 	}
 
 	public void Kiihdyta() {
